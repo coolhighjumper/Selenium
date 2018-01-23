@@ -1,0 +1,33 @@
+install JAVA jdk
+    * maybe we don't have to setup JAVA_HOME and PATH since the command can execute sucessfully
+install apache maven
+    * maven needs pom file to define the dependency 
+    1.download binary zip file on web.
+    2.unzip the file at the /usr/chiang
+    3.adding M2_HOME and PATH in .bash_profile
+install eclipse
+    1.preference->maven->installation->adding maven floder PATH
+    2.preference->java->installed jre->adding jre arguments
+install testng on eclipse
+install cucumber(bdd tool for ruby) and cucumber eclipse plug-in
+    * cucumber is a bdd tool developed on ruby. cucumber-jvm is for java.
+setting eclipse
+    * project properties->java compiler ->9
+    * project properties->java build path->alternative->jre9
+    * clean and update
+
+cucumber:
+    tool for testing.
+    feature file(gherkin) ->step definition classes ->automation code(selenium) ->system under test
+    we are gonna test stackoverflow login
+gherkin:
+    language that cucumber understand.
+    gherkin syntax: given, but, then, and to construct scenario
+
+run by command line:
+    1.cd project folder
+    2.mvn compile
+    3.mvn ecplise:ecplise (since we use eclipse plugin)
+    4.mvn -Dtest classname test
+    * surefire version too old 2.12-> 2.19.1 works
+    * runner should be renamed as runnerTest

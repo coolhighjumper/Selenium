@@ -1,0 +1,33 @@
+package CumberFramework.stepFiles;
+
+public class Login {
+	@Given("^User navigates to stackoverflow website$")
+	public void user_navigates_to_stackoverflow_website() throws Throwable {
+
+	}
+
+	@Given("^User clicks on the login button on homepage$")
+	public void user_clicks_on_the_login_button_on_homepage() throws Throwable {
+
+	}
+
+	@Given("^User enter a valid username$")
+	public void user_enter_a_valid_username() throws Throwable {
+
+	}
+
+	@Given("^User enter a valid password$")
+	public void user_enter_a_valid_password() throws Throwable {
+
+	}
+
+	@When("^User clicks on the login button$")
+	public void user_clicks_on_the_login_button() throws Throwable {
+
+	}
+
+	@Then("^User should be taken to the successful login page$")
+	public void user_should_be_taken_to_the_successful_login_page() throws Throwable {
+
+	}
+}
